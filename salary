@@ -1,0 +1,11 @@
+$ages = [
+    'John' => 25,
+    'Sarah' => 30,
+    'Michael' => 20
+];
+
+arsort($ages);
+
+foreach ($ages as $name => $age) {
+    echo $name . ': ' . $age . "\n";
+}
